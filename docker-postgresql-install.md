@@ -1,5 +1,10 @@
 # Docker & PostgreSQL 설치 
 
+- pre-install
+  - Docker
+  - DBveaver
+
+
 
 ## docker 설치 
 
@@ -134,6 +139,9 @@ ex) `dvdrental` 또는 postgres 또는 testdb
 #### Password
 
 `asd123!@#`
+
+Test Connect 버튼으로 테스트
+확인
 
 
 
