@@ -18,7 +18,7 @@ docker run -p 54320:5432 -v C:\docker_postgresql_dev_volume:/home/workspace -e P
 
 -p : 포트, 클라이언트 포트(현재PCOS) : 서버포트(컨테이너), 여러개 입력가능
 
--v : 볼륨, 파일공유할 수 있습니다. 클라이언트경로:서버경로 
+-v : 볼륨, 파일공유, 클라이언트경로:서버경로 
 
 -e : 환경변수(도커허브 이미지 참조)
 
@@ -26,7 +26,7 @@ docker run -p 54320:5432 -v C:\docker_postgresql_dev_volume:/home/workspace -e P
 
 
 
-## 컨테이너 접속하기
+## 컨테이너 접속
 ```
 docker exec -it postgresdev /bin/bash
 ```
@@ -35,7 +35,7 @@ root@aca29b73a155:/#
 성공시 이렇게 보여지며 aca29b73a155는 컨테이너 아이디입니다.
 
 
-## 유저생성하기
+## 유저 생성
 postgres 계정으로 변경
 
 ``` 
@@ -69,7 +69,7 @@ psql -U postgres
 
 ---
 
-## 튜토리얼
+## 튜토리얼 설정 
 
 https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/
 
