@@ -1,4 +1,4 @@
-# Docker & PostgreSQL 설치 
+# Docker & PostgreSQL 설치가이드
 
 - pre-install
   - Docker
